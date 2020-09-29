@@ -1,0 +1,12 @@
+
+Verificar nuestro correos y emails.
+
+1.-https://haveibeenpwned.com/
+
+Pones tu email y te verifica si tu correo o email esta ciendo vulnerado.
+
+2.-Para el Password
+
+https://haveibeenpwned.com/Passwords
+
+Verifica si tu password se esta utilizando mucho

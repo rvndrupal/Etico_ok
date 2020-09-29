@@ -1,0 +1,22 @@
+ls  --> listado
+ls  -l -a
+ls  --all -l
+clear
+
+ls [a-f]*  Listame todos de la A a la F
+
+ls ; ls -l     #con la coma se separan los comandos.
+
+ls /Escritorio && ls   #solo se ejecutan si se cumplen la primera.
+
+ls Escritorio ||  ls Descargas  # es un o 
+
+pwd -> nos dice en donde estas parado.
+
+whoami -> nombre del usuario.
+
+hostname-> nombre de la consola
+
+history -> historial de comandos.
+
+!5 -> ejecuta el comando 5 del historial
