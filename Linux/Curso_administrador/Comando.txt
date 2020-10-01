@@ -20,3 +20,50 @@ hostname-> nombre de la consola
 history -> historial de comandos.
 
 !5 -> ejecuta el comando 5 del historial
+
+1.-man pwd -> muestra la ayuda de pwd  man sirve para mostrar la ayuda.
+
+2.-Ficheros ocultos 
+ls /home/ -la     #la a  le esta diciendo que muestre los archivos ocultos se muestran en un puntito.
+
+ls Documentos -la     #lo mismo
+
+3.-Ordenar
+ls -lt   los Ordenar por tiempo
+ls -ltr  Ordena a la inversa tiempo
+
+4.-Tamaño
+ls -lh    #Tamaño de los ficheros.
+ls -lhr   #Tamaño en la inversa´
+
+
+5.-Crear una carpeta
+mkdir (nombre)
+mkdir "mis fotos"  -> para poner con separador.
+mkdir di1 dir2 dir3
+mkdir -p  dir5/fotos/naturaleza    #con el -p si no existe lo forza
+
+6.-Borrar contenido rm 
+rm -r  borra todo con su contenido
+
+7.-Crear archivos  touch  nombre.txt
+touch archivo1.txt
+
+8.-Mover un archivo. mv o cambiar un nombre
+mv  archivo1.txt  cd ../Documentos
+mv archivo.txt  archivo_demo.txt
+
+9.-ficheros Espacios, particiones,etc.
+df -h    #particiones y disco etc.
+df -h  /home
+du -sh /*     #Tamaño de un directorio en mb. muestra cuanto ocupan todos los archivos.
+du -sh | sort -h    #Muestra todo el tamaño y ordenados.
+cd /Documentos   ->  du -hs   #muestra el espacio de los documentos
+
+
+10.Buscar comando
+ctrl+r   #Pongo el comando que quiero buscar.
+
+11.-Crear un enlace o link.
+ls -s  /Documentos/dir1  /directorios  #crea en enlace a la carpeta cuando ponga directorios.   Verificar lo de los permisos.
+

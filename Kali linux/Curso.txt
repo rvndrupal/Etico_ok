@@ -1,0 +1,15 @@
+1.-Conoce rmi ip publica.
+
+https://www.cual-es-mi-ip.net/
+
+2.-Puertos.
+https://es.wikipedia.org/wiki/Anexo:Puertos_de_red
+Protocolos:
+https://es.wikipedia.org/wiki/Familia_de_protocolos_de_internet
+
+3.-Kali linux.
+https://www.kali.org/
+
+
+4.-Freen direccion ip
+192.168.1.65

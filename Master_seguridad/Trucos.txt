@@ -10,3 +10,36 @@ Pones tu email y te verifica si tu correo o email esta ciendo vulnerado.
 https://haveibeenpwned.com/Passwords
 
 Verifica si tu password se esta utilizando mucho
+
+3.-Checar las cuentas del telefono.
+Ajustes->cuentas
+
+4.- Checar los permisos para las aplicaiones del celular.
+
+Aplicaciones->Permisos de apps
+
+5.-Ver que a visto
+https://www.youtube.com/feed/history
+
+6.-needsped validar navegador
+
+http://www.mediafire.com/file/jhwbt6cmfdofdaa/Net_Speed_Monitor_64_Bits_-_TuWindowsPc.rar/file
+
+Dar sobre propiedades y dar en compatibilidad.
+https://www.youtube.com/watch?v=TW0B_6oVJts   #para configurarlo
+
+7.-Analizar el correo de amenaza.
+https://mxtoolbox.com/EmailHeaders.aspx
+
+https://www.iplocation.net/    #Donde es la ip
+
+8.-netflix
+
+"netflix" "email" site:pastebin.com
+
+9.-Ubicar celular.
+https://www.androidlost.com/
+
+10.-Saber si hay alguien conectado a la compu.
+
+cmd->netstat
