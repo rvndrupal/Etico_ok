@@ -67,3 +67,8 @@ ctrl+r   #Pongo el comando que quiero buscar.
 11.-Crear un enlace o link.
 ls -s  /Documentos/dir1  /directorios  #crea en enlace a la carpeta cuando ponga directorios.   Verificar lo de los permisos.
 
+12.-Copiar
+cp -r dir1  dir2  #copia origen destino y tambien sirva para cambiar el nombre 
+                #cuando es un directorio hay que poner el -r
+
+cp dir1 dir2  dir3   copia los dos al destino que es el ultimo

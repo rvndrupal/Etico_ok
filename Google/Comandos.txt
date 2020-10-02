@@ -1,0 +1,15 @@
+1.-Buscar la version de google Copia incluso si esta abajo el servicio.
+http://webcache.googleusercontent.com/search?q=cache:http://1234.com
+http://webcache.googleusercontent.com/search?q=cache:http://www.osiap.org.mx/senasica/
+
+
+2.-Google como servidor Proxy
+
+
+3.-Listados de Carpetas.
+intitle:"index of"
+index of /pdf 
+index of /pdf hacker
+http://index-of.es/Hacking/Google-Hacking/
+intitle:index.of.admin
+

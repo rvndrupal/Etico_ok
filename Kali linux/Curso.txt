@@ -1,3 +1,5 @@
+#La clave de windows server es la chingona con R mayuscula y +
+
 1.-Conoce rmi ip publica.
 
 https://www.cual-es-mi-ip.net/
@@ -13,3 +15,10 @@ https://www.kali.org/
 
 4.-Freen direccion ip
 192.168.1.65
+
+5.-Nmap comandos.
+ver las ip a rastrear.
+ifconfi -> ojo estando como root   sudo su
+
+1.-nmap 192.168.1.78/24  #el rango es el 171 y le decimos que escane las 24 opciones siguientes.
+2.-nmap -o 192.168.1.78   #conocer el sistema operativo de la maquina
