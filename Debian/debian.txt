@@ -1,0 +1,79 @@
+apt-get update   #actualizar el sistema.
+apt-get  upgrade  #Actualizacion paquetes
+su   #Cambio a root
+exit  #salir
+halt  #Apagar el sistema.
+
+Comandos Basicos Linux
+ ls, dir, mkdir, rm, rmdir, delete, mv, cp, who, login, exitm clear
+ ls = lsitar directorio actual
+ cd = cambiar de directorio
+ cp = copiar archivos
+ dir = igual que ls
+ mkdir = crear directorios
+ mv = mover archivos y carpetas
+ rmdir = borrar un directorio
+ rm -r = borrar un directorio con todo y archivos.
+ exit = sañor de una sesion en terminal
+ login = inicitar sesion en terminal
+ su = iniciar sesion como root
+ sudo = ejecutar comandos directamente como root
+ rm = eliminar un archivo
+ more = ver el contenido de un archivo
+ cat = ver el contenido de un archivo
+ touch = actualiza los registros de fecha y hora, con la fecha y hora 
+  actual de los ficheros indicados como argumento. 
+  Su uso mas frecuente es para crear archivos
+ man =  ver el manual de un comando
+ chmod = cambia permisos de un directorio
+ clear = limpiar pantalla
+ who = mostrar los usuarios que han iniciado sesion
+ whoami = mostrar el usuario actual en sesion 
+
+ nano doc1.txt =Crea o modifica un nuevo documento de texto
+
+ reboot =Reiniciar
+
+ ip add= Direcciones ip
+
+ ip link show = Mostrar las direcciones 
+
+
+
+#Ojo se tiene que agregar un nuevao adaptador2 de red solo anfitrion.
+nano /etc/network/interfaces  = Generar la nueva ip
+allow-hotplug enp0s8
+iface enp0s8 inet static
+address 192.168.1.70   #por ejemplo
+mask  255.255.255.0
+
+##### Instalar ssh #####
+apt-get install openssh-client
+apt-get install openssh-server
+
+#Para configurar
+cd /etc/ssh/
+nano sshd_config   =de quita el gato donde dice port 222
+service sshd restart   =Reinicia el ssh
+
+
+#Manejo de Usuarios.
+adduser juan  = Agrega un nuevo usuario con todo y grupo
+cd /home   #Para ver los usuarios
+
+useradd  = Agrega un nuevo usuario pero sin grupo.
+deluser user1  =Borrar un usuario
+passwd {nom} {enter} = Cambiar el password.
+
+usermod -L {usuario} =Deshabilita al usuario
+usermod -U {usuario} =habilita al usuario
+
+nano /etc/shadow  = Ver todos los Usuarios y las contraseñas solo root
+
+
+
+
+
+
+
+

@@ -72,3 +72,16 @@ cp -r dir1  dir2  #copia origen destino y tambien sirva para cambiar el nombre
                 #cuando es un directorio hay que poner el -r
 
 cp dir1 dir2  dir3   copia los dos al destino que es el ultimo
+
+13.-Comodines.
+cp -r tux*  dir3
+cp -r *.jpeg  dir3
+ls -l  *.*   #que te muestre los archivos que tienen extención.
+ls -l  dir?  busca todos los directorio con un numero x
+ls -l dir1??5  los que sean mayor que diez
+
+14.-Usuarios y permisos.
+sudo su    $root
+whoami    #quien soy
+groups    #grupos
+exit     #salir de root
